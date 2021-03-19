@@ -16,7 +16,7 @@ def tap(x, y):
 
 def inside(xy):
     "Return True if xy within screen."
-    return -200 < xy.x < 200 and -200 < xy.y < 200
+    return -3400 < xy.x < 3400 and -3400 < xy.y < 3400
 
 def draw():
     "Draw ball and targets."
@@ -40,10 +40,10 @@ def move():
         targets.append(target)
 
     for target in targets:
-        target.x -= 0.5
+        target.x -= 0.8 # Velocidad Aumentada
 
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 0.6 # Velocidad Aumentada
         ball.move(speed)
 
     dupe = targets.copy()
