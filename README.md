@@ -8,3 +8,4 @@ Esta es una modificación del programa de python Cannon, perteneciente a los jue
 
 Guía de instalación
 Para instalar el programa, es necesario únicamente descargar y correr el programa en su aplicación/herramienta que le permite utilizar o modificar archivos de python.
+ :)
